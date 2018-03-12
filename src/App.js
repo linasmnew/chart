@@ -29,7 +29,6 @@ class App extends Component {
           <textarea name="chartdata" spellCheck="false">
             {JSON.stringify(this.state.json)}
           </textarea>
-
           <input type="submit" value="Update" />
         </form>
         <Chart json={this.state.json} />

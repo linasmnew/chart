@@ -58,7 +58,7 @@ class Chart extends Component {
     return (
       <div
         style={{
-          display: "inline-block",
+          float: "left",
           verticalAlign: "top"
         }}
         ref={input => {
@@ -76,7 +76,7 @@ class Chart extends Component {
       this.props.json.xAxis.length * this.xAxisShapeCordinates.x +
         this.xAxisShapeCordinates.x -
         this.xAxisShapeCordinates.w,
-      this.xAxisShapeCordinates.h * this.props.json.yAxis.length + 30
+      this.xAxisShapeCordinates.h * this.props.json.yAxis.length + 20
     );
   }
 
